@@ -1,80 +1,84 @@
-# Jekyll Instagram Portfolio Theme
+# leopard
 
-Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
-For the portfolio section is used Instagram widget, but you can easily update it with another content source.
+[leopard](http://baixin.io) 是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
 
-## Live Demo
+### 使用手册
 
-https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
-![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
+[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)  :  使用Jekyll搭建个人博客的教程，以及如果把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
 
-## Showcase
+[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) : 使用 HEXO 基于 Github Page 搭建个人博客， 教程里面累计了大量提问和评论，如果你在搭建博客时遇到问题，可以看看这个教程。 
 
-The best usage examples:
 
-- [Pavel Guzenko](http://guzenko.org.ua)
-- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
-- [Anthony Fuentes](http://anthonyfuentes.us/)
-- [Serhii Grytsyshyn](https://grserhii.github.io/)
+### 使用条件
 
-To add your example: fork the repo, add new line to the list above and create a pull request.
+Jekyll 支持 Mac 、Windows、ubuntu 、Linux 操作系统                     
+Jekyll 需要依赖：Ruby、bundler
 
-## Featured on
 
-- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
-- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
+#### 安装Jekyll
 
-## Powered by
+[Jekyll中文官方文档](http://jekyll.bootcss.com/) ， 如果你已经安装过了 Jekyll，可以忽略此处。
 
-- [Jekyll](https://jekyllrb.com/)
-- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [SnapWidget](https://snapwidget.com)
-- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
-- [Font Awesome](http://fontawesome.io/)
+> $ gem install jekyll
 
-## Installation
-Install Jekyll:
+#### 获取博客模板
 
-```
-gem install jekyll bundler
-```
+> $ git clone https://github.com/leopardpan/leopardpan.github.io.git
 
-Install bundle dependiencies:
+或者直接[下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
 
-```
-bundle install
-```
+进leopardpan.github.io/ 目录下， 开启本地服务 
 
-When finished, run the dev server:
+> $ jekyll server
 
-```
-bundle exec jekyll serve
-```
+在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
-or just:
 
-```
-jekyll serve
+### 提示
 
-```
-To stop the server, use `CTRL+C`.
+>* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
+>* 修改 _config.yml 文件里面的内容为你自己的个人信息。
 
-## Building front-end assets: styles and scripts
+如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/leopardpan/leopardpan.github.io/issues)里面提问。        
 
-Install module dependencies:
 
-```
-npm install
-```
+### 把这个博客变成你自己的博客
 
-Run the build script to generate updated front-end assets:
+根据上面【提示】修改过后，在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名。      
+创建完成后，把我的这个模板使用git push到你的username.github.io仓库下就行了。
+搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)。
 
-```
-npm run build
-```
 
-Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
-```
-npm run watch
-```
+### 效果预览
+
+#### 头像效果
+
+![](/images/readme//icon.gif)
+
+如果你只想要我博客里的头像效果，你只需要拿 leopardpan.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 leopardpan.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
+
+
+***
+
+#### 博客首页   
+
+![](/images/readme//img4.png)   
+
+***  
+
+#### 文章详情   
+
+
+
+![](/images/readme//img3.png)
+
+
+![](/images/readme//img2.png)
+
+
+![](/images/readme//img1.png)
+
+
+#### 感谢   
+
+本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
