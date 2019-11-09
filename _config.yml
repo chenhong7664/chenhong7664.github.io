@@ -1,7 +1,7 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: 开一道天眼 在造一通地脉
-email: your-email@domain.com
+email: 309933283@qq.com
 brand: 悠哉 悠哉
 headline: Inventor, Engineer and Futurist
 description: > # this means to ignore newlines until "baseurl:"
@@ -17,8 +17,8 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
-phone: +1-800-555-2016
+email: 309933283@qq.com
+phone: +18500235786
 
 # Tracking
 googleAnalitycsID: UA-83933844-1
