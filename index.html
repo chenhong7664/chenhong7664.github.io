@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,234 +9,237 @@
     <link rel="shortcut icon" href="./image/favicon.ico" />
     <title>新声代音乐培训中心</title>
     <style>
-      /* 巨幕 */
-      .beijingtu{
-        background: url(./image/baoboa.jpg);
-        color: #f9f9f9;
-        background-size: cover;
-        padding-top: 56%;
-        position: relative;
-      }
-
-      /* 字体定位 */
-      .zitidingwei{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translatex(-50%);
-      }
-
-      /* 距离下面设置为0 */
-      .xia{
-        margin-bottom: 0;
-      }
-      /* 底部导航 */
-      .footer-end{
-        background: #dad0d0;
-        text-align: center  ;
-        padding: 50px 0;
-      }
-      /*轮播图 */
-      .lunbotu{
-        width: 100%;
-      }
-      @media(max-width: 768px){
-        .navbar-form, .navbar-left{
-          display: none;
+        /* 巨幕 */
+        
+        .beijingtu {
+            background: url(./image/baoboa.jpg);
+            color: #f9f9f9;
+            background-size: cover;
+            padding-top: 56%;
+            position: relative;
         }
-        .navbar-nav{
-          /* margin-left: 200px; */
+        /* 字体定位 */
+        
+        .zitidingwei {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translatex(-50%);
         }
-      }
+        /* 距离下面设置为0 */
+        
+        .xia {
+            margin-bottom: 0;
+        }
+        /* 底部导航 */
+        
+        .footer-end {
+            background: #dad0d0;
+            text-align: center;
+            padding: 50px 0;
+        }
+        /*轮播图 */
+        
+        .lunbotu {
+            width: 100%;
+        }
+        
+        @media(max-width: 768px) {
+            .navbar-form,
+            .navbar-left {
+                display: none;
+            }
+        }
     </style>
 </head>
+
 <body>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
     <nav class="navbar navbar-default navbar-inverse xia">
-            <div class="container-fluid"> 
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                   
+
                 <a class="navbar-brand" href="#">北京新声代</a>
-              </div>
-          
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">课程介绍</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教学体系 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">免费体验学习</a></li>
-                      <li><a href="#">私人订制学习</a></li>
-                      <li><a href="#">有效率的课程</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">优质的老师</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">上台实战锻炼</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">课程介绍</a></li>
-                  <li><a href="#">关于我们</a></li>
-                  
+                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">课程介绍</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教学体系 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">免费体验学习</a></li>
+                            <li><a href="#">私人订制学习</a></li>
+                            <li><a href="#">有效率的课程</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">优质的老师</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">上台实战锻炼</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">课程介绍</a></li>
+                    <li><a href="#">关于我们</a></li>
+
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href=""data-toggle="modal"data-target="#mymotai">登录</a></li>
+                    <li><a href="" data-toggle="modal" data-target="#mymotai">登录</a></li>
                     <li><a href="">注册</a></li>
-                  </ul>
+                </ul>
                 <!-- 表单开始 -->
                 <form class="navbar-form navbar-left">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="输入搜索内容">
-                  </div>
-                  <button type="submit" class="btn btn-default">搜索</button>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="输入搜索内容">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
                 </form>
                 <!-- 表单结束-->
-               
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-          <!-- 轮播图开始 -->
-                    <div id="carousel-example-generic" class="carousel slide lunbotu" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- 轮播图开始 -->
+    <div id="carousel-example-generic" class="carousel slide lunbotu" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          </ol>
+        </ol>
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="./image/banner01.jpg" alt="...">
-              <div class="carousel-caption">
-                <!-- ... -->
-              </div>
+                <img src="./image/banner01.jpg" alt="...">
+                <div class="carousel-caption">
+                    <!-- ... -->
+                </div>
             </div>
             <div class="item">
-              <img src="./image/banner02.jpg" alt="...">
-              <div class="carousel-caption">
-                <!-- ... -->
-              </div>
+                <img src="./image/banner02.jpg" alt="...">
+                <div class="carousel-caption">
+                    <!-- ... -->
+                </div>
             </div>
-            
+
             <div class="item">
                 <img src="./image/banner03.jpg" alt="...">
                 <div class="carousel-caption">
-                  ...
+                    ...
                 </div>
-              </div>
-              <div class="item">
-                  <img src="./image/banner04.jpg" alt="...">
-                  <div class="carousel-caption">
+            </div>
+            <div class="item">
+                <img src="./image/banner04.jpg" alt="...">
+                <div class="carousel-caption">
                     <!-- ... -->
-                  </div>
                 </div>
-          </div>
+            </div>
+        </div>
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
-        </div>
-          <!-- 轮播图结束 -->
-          <div class="container">
-              <ol class="breadcrumb">
-                  <li><a href="#">首页</a></li>
-                  <li><a href="#">课程推荐</a></li>
-                </ol>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                          <img src="./image/1.jpg" alt="...">
-                          <div class="caption">
-                            <h3>歌手艺人培训</h3>
-                            <p>
-                                　　新声代是一家专业从事音乐创作、制作、推广发行销售、艺人经纪、演艺、教育培训为一体的综合性音乐机构。通过对所有强势资源的整合，在娱乐与商业模式上的不断创新，新声代音乐已成为国内首屈一指的娱乐营销专家和音乐推广商，业内一线策划团队，针对艺人特点规划不同的发展方向和路线，并为艺人配备经验丰富的经纪人、艺人助理、造型师等专业协作团队。</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
+        </a>
+    </div>
+    <!-- 轮播图结束 -->
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程推荐</a></li>
+        </ol>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>歌手艺人培训</h3>
+                        <p>
+                            新声代是一家专业从事音乐创作、制作、推广发行销售、艺人经纪、演艺、教育培训为一体的综合性音乐机构。通过对所有强势资源的整合，在娱乐与商业模式上的不断创新，新声代音乐已成为国内首屈一指的娱乐营销专家和音乐推广商，业内一线策划团队，针对艺人特点规划不同的发展方向和路线，并为艺人配备经验丰富的经纪人、艺人助理、造型师等专业协作团队。</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                        <img src="./image/2.jpg" alt="...">
-                        <div class="caption">
-                          <h3>美声唱法</h3>
-                          <p>
-                              美 声唱法:产生于17世纪意大利的一种演唱风格。以音色优美，富于变化；声部区分严格，重视音区的和谐统一；发声方法科学，音量的可塑性大；气声一致，音与 音的连接平滑匀净为其特点。这种演唱风格对全世界有很大影响。现在所说的美声唱法是以传统欧洲声乐技术、尤其是以意大利声乐技术为主体的演唱风格。在文艺 复兴思潮的影响下，逐渐产生了歌剧，美声唱法也逐渐完善。佩里根写出意大利最早的歌剧《达芙妮》，1600年又写出了歌剧《犹丽狄茜》。作曲家的创作，使 歌剧突破了以往的唱法。</p>
-                              
-                              美声区别于其他唱法的最主要的特点，用一句话来概括就是美声唱法是混合声区唱法。正如前面说过的，美声唱法从声音来说，是真声假声都用，是真假声按音高比例 的需要混合着用的。从共鸣来说，是把歌唱所能用的共鸣腔体都调动起来。这种唱法本身有他自己特有的“味道”，特有的音响特色。学习和掌握美声唱法的过程， 等于用我们的歌唱训练来制造我们的嗓音乐器。美声唱法所需要的歌唱乐器唱出来的歌声是有他特有的“味道”的。
-                              
-艺术的歌唱包括很好的民歌，好的歌唱者都是根据所唱的作品选择唱法。从另一个角度考虑歌唱中语言的位 置，元音的位置不同所产生的共鸣也不同。有些唱法希望保持元音的位置不变，从低到高保持元音不改变，保持共鸣的统一，甚至唱华彩部分，咬住原有元音不改 变，绝不允许到高音用A来代替原有的元音。
-                              <a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                          <img src="./image/3.jpg" alt="...">
-                          <div class="caption">
-                            <h3>吉他培训</h3>
-                            <p>
-                                为了帮助广大吉他爱好者更早更快的完成梦想，我们常年开办吉他培训班，并根据个人的程度和要求不同，开设有不同的班次，欢迎广大吉他爱好者来电来函咨询！（凡来电来函咨询者，都可免费做一次有关吉他演奏的基本测试）</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4">
-                          <div class="thumbnail">
-                            <img src="./image/4.jpg" alt="...">
-                            <div class="caption">
-                              <h3>街舞培训</h3>
-                              <p>
-                                  教学效果 ：通过街舞系统训练使初学者能在短期内掌握街舞的节奏与舞感，在趣味欢快的热舞训练中达到全面均衡的塑身目的；对于调节练习者心理，缓解其精神压力所起得作用更为突出。    </p>
-                              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="thumbnail">
-                              <img src="./image/5.jpg" alt="...">
-                              <div class="caption">
-                                <h3>钢琴培训</h3>
-                                  <p>
-                                      　　在世界各国的成千上万种古今乐器当中，现代钢琴被众多的音乐家们誉为“乐器之王”。这不仅是由于它的体积最大、内部结构最复杂，更主要的还是由于它优良全面的性能和广泛的用途都是其他任何乐器（除为数不多的教堂、音乐厅中的管风琴外）无法与之相比拟的。</p>
-                               <p> <a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-6 col-md-4">
-                              <div class="thumbnail">
-                                <img src="./image/6.jpg" alt="...">
-                                <div class="caption">
-                                  <h3>流行演唱</h3>
-                                  <p>
-                                      流行演唱：源于欧美，具有大众性、通俗性、时尚型、自娱性等艺术特色，擅长抒发以个人为主体的内心情感。流行唱法是借助音响扩大效果，以闪耀变化的舞台美术 灯光渲染气氛，用各异的演唱方法，集舞蹈表演、伴唱、伴舞，电声乐器伴奏，集说唱于一体的演唱艺术。流行唱法是全世界性、目前还在不断的相互交融发展、感 染性最强、普及性大的一种演唱方法。
-                                      流行唱法是全世界性、目前还在不断的相互交融发展、感染性强、普及性大的一种演唱方法。
-                                  </p>
-                                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                                </div>
-                              </div>
-                            </div>
-                      
                 </div>
-                  <!-- 分页开始 -->
-                  <!-- <nav aria-label="Page navigation">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/2.jpg" alt="...">
+                    <div class="caption">
+                        <h3>美声唱法</h3>
+                        <p>
+                            美 声唱法:产生于17世纪意大利的一种演唱风格。以音色优美，富于变化；声部区分严格，重视音区的和谐统一；发声方法科学，音量的可塑性大；气声一致，音与 音的连接平滑匀净为其特点。这种演唱风格对全世界有很大影响。现在所说的美声唱法是以传统欧洲声乐技术、尤其是以意大利声乐技术为主体的演唱风格。在文艺 复兴思潮的影响下，逐渐产生了歌剧，美声唱法也逐渐完善。佩里根写出意大利最早的歌剧《达芙妮》，1600年又写出了歌剧《犹丽狄茜》。作曲家的创作，使 歌剧突破了以往的唱法。</p>
+
+                        美声区别于其他唱法的最主要的特点，用一句话来概括就是美声唱法是混合声区唱法。正如前面说过的，美声唱法从声音来说，是真声假声都用，是真假声按音高比例 的需要混合着用的。从共鸣来说，是把歌唱所能用的共鸣腔体都调动起来。这种唱法本身有他自己特有的“味道”，特有的音响特色。学习和掌握美声唱法的过程， 等于用我们的歌唱训练来制造我们的嗓音乐器。美声唱法所需要的歌唱乐器唱出来的歌声是有他特有的“味道”的。 艺术的歌唱包括很好的民歌，好的歌唱者都是根据所唱的作品选择唱法。从另一个角度考虑歌唱中语言的位 置，元音的位置不同所产生的共鸣也不同。有些唱法希望保持元音的位置不变，从低到高保持元音不改变，保持共鸣的统一，甚至唱华彩部分，咬住原有元音不改
+                        变，绝不允许到高音用A来代替原有的元音。
+                        <a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/3.jpg" alt="...">
+                    <div class="caption">
+                        <h3>吉他培训</h3>
+                        <p>
+                            为了帮助广大吉他爱好者更早更快的完成梦想，我们常年开办吉他培训班，并根据个人的程度和要求不同，开设有不同的班次，欢迎广大吉他爱好者来电来函咨询！（凡来电来函咨询者，都可免费做一次有关吉他演奏的基本测试）</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/4.jpg" alt="...">
+                    <div class="caption">
+                        <h3>街舞培训</h3>
+                        <p>
+                            教学效果 ：通过街舞系统训练使初学者能在短期内掌握街舞的节奏与舞感，在趣味欢快的热舞训练中达到全面均衡的塑身目的；对于调节练习者心理，缓解其精神压力所起得作用更为突出。 </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/5.jpg" alt="...">
+                    <div class="caption">
+                        <h3>钢琴培训</h3>
+                        <p>
+                            在世界各国的成千上万种古今乐器当中，现代钢琴被众多的音乐家们誉为“乐器之王”。这不仅是由于它的体积最大、内部结构最复杂，更主要的还是由于它优良全面的性能和广泛的用途都是其他任何乐器（除为数不多的教堂、音乐厅中的管风琴外）无法与之相比拟的。</p>
+                        <p> <a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./image/6.jpg" alt="...">
+                    <div class="caption">
+                        <h3>流行演唱</h3>
+                        <p>
+                            流行演唱：源于欧美，具有大众性、通俗性、时尚型、自娱性等艺术特色，擅长抒发以个人为主体的内心情感。流行唱法是借助音响扩大效果，以闪耀变化的舞台美术 灯光渲染气氛，用各异的演唱方法，集舞蹈表演、伴唱、伴舞，电声乐器伴奏，集说唱于一体的演唱艺术。流行唱法是全世界性、目前还在不断的相互交融发展、感 染性最强、普及性大的一种演唱方法。 流行唱法是全世界性、目前还在不断的相互交融发展、感染性强、普及性大的一种演唱方法。
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 分页开始 -->
+        <!-- <nav aria-label="Page navigation">
                       <ul class="pagination">
                         <li>
                           <a href="#" aria-label="Previous">
@@ -254,51 +258,46 @@
                         </li>
                       </ul>
                     </nav> -->
-                  <!-- 分页结束 -->
-          </div>
-          <!-- 尾部开始 -->
-          <footer class="footer-end">
-            <div class="container">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate tempore <br>
-                Copyright © 2013-2016 北京新声代音乐中心 All Rights Reserved. 京ICP备14044665号-1
-            </div>
-          </footer>
-          <!-- 尾部结束 -->
-          <!-- 模态框开始 -->
-          <div class="modal fade" tabindex="-1" role="dialog" id="mymotai">
-              <div class="modal-dialog modal-sm" role="document ">
-                <div class="modal-content ">
-                  <div class="modal-header">
+        <!-- 分页结束 -->
+    </div>
+    <!-- 尾部开始 -->
+    <footer class="footer-end">
+        <div class="container">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate tempore <br> Copyright © 2013-2016 北京新声代音乐中心 All Rights Reserved. 京ICP备14044665号-1
+        </div>
+    </footer>
+    <!-- 尾部结束 -->
+    <!-- 模态框开始 -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="mymotai">
+        <div class="modal-dialog modal-sm" role="document ">
+            <div class="modal-content ">
+                <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">欢迎登录  </h4>
-                  </div>
-                  <div class="modal-body">
-                      <form>
-                          <div class="form-group">
+                    <h4 class="modal-title">欢迎登录 </h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
                             <label for="recipient-name" class="control-label">账号:</label>
                             <input type="text" class="form-control" id="recipient-name">
-                          </div>
-                          <div class="form-group">
+                        </div>
+                        <div class="form-group">
                             <label for="message-text" class="control-label">密码:</label>
                             <input type="passsword" class="form-control" id="recipient-name">
-                          </div>
-                        </form>
-                  </div>
-                  <div class="modal-footer">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-          <!-- 模态框结束 -->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 模态框结束 -->
 </body>
+
 </html>
-
-
-
-
-
-
-
-
